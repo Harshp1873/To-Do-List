@@ -12,7 +12,7 @@ const todoSchema = mongoose.Schema(
         },
         deviceID: {
             type: String,
-            default: false
+            required: true,
         }
 
         

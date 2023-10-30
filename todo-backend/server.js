@@ -56,7 +56,7 @@ app.post('/todos', (req, res) => {
 app.put('/todos/:id', updateTodo)
 
 //Delete Todolist
-app.delete('/todos/:id', deleteTodo)
+app.delete('/todos/delete', deleteTodo)
 
 
 
